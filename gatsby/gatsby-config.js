@@ -7,8 +7,10 @@ export default {
     title: `Slick's Slices`,
     siteUrl: 'http://localhost:8888/',
     description: `The best pizza place in Silver Spring!`,
+    twitter: '@slicksSlices',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {

@@ -93,7 +93,6 @@ async function fetchBeersAndTurnIntoNodes({
 }
 
 async function turnSlicemastersIntoPages({ graphql, actions }) {
-  const slicemasterTemplate = path.resolve('./src/templates/Slicemaster.js');
   // 1. query all slicemasters
   const { data } = await graphql(`
     query {
