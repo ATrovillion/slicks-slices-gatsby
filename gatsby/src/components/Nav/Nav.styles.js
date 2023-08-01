@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const NavStyles = styled.nav`
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   .logo {
     transform: translateY(-25%);
   }
